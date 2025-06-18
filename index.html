@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students Grading System</title>
+    <link rel="shortcut icon" href="dark-yellow-image.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+<div class="box">
+
+    <div class="top">
+    <text>Student Grading System</text>
+    </div>
+
+    <div class="middle">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Physics</th>
+            <th>Chemistry</th>
+            <th>Math</th>
+            <th>English</th>
+            <th class="hidden-column">Total</th>
+            <th class="hidden-column">Average</th>
+            <th class="hidden-column">CGPA</th>
+        </tr>
+
+        <tr>
+            <th><p id="name1"><script>document.write(n1)</script></p></th>
+            <td><input type="number" id="a1" placeholder="Example: 87"></td>
+            <td><input type="number" id="b1"></td>
+            <td><input type="number" id="c1"></td>
+            <td><input type="number" id="d1"></td>
+            <td class="hidden-column"><input type="number" id="x1" value=""></td>
+            <td class="hidden-column"><input type="number" id="y1"></td>
+            <td class="hidden-column"><input type="number" id="z1"></td>
+        </tr>
+
+        <tr>
+            <th><p id="name2"><script>document.write(n2)</script></p></th>
+            <td><input type="number" id="a2"></td>
+            <td><input type="number" id="b2"></td>
+            <td><input type="number" id="c2"></td>
+            <td><input type="number" id="d2"></td>
+            <td class="hidden-column"><input type="number" id="x2"></td>
+            <td class="hidden-column"><input type="number" id="y2"></td>
+            <td class="hidden-column"><input type="number" id="z2"></td>
+        </tr>
+
+        <tr>
+            <th><p id="name3"><script>document.write(n3)</script></p></th>
+            <td><input type="number" id="a3"></td>
+            <td><input type="number" id="b3"></td>
+            <td><input type="number" id="c3"></td>
+            <td><input type="number" id="d3"></td>
+            <td class="hidden-column"><input type="number" id="x3"></td>
+            <td class="hidden-column"><input type="number" id="y3"></td>
+            <td class="hidden-column"><input type="number" id="z3"></td>
+        </tr>
+
+        <tr>
+            <th><p id="name4"><script>document.write(n4)</script></p></th>
+            <td><input type="number" id="a4"></td>
+            <td><input type="number" id="b4"></td>
+            <td><input type="number" id="c4"></td>
+            <td><input type="number" id="d4"></td>
+            <td class="hidden-column"><input type="number" id="x4"></td>
+            <td class="hidden-column"><input type="number" id="y4"></td>
+            <td class="hidden-column"><input type="number" id="z4"></td>
+        </tr>
+
+        <tr>
+            <th><p id="name5"><script>document.write(n5)</script></p></th>
+            <td><input type="number" id="a5"></td>
+            <td><input type="number" id="b5"></td>
+            <td><input type="number" id="c5"></td>
+            <td><input type="number" id="d5"></td>
+            <td class="hidden-column"><input type="number" id="x5"></td>
+            <td class="hidden-column"><input type="number" id="y5"></td>
+            <td class="hidden-column"><input type="number" id="z5"></td>
+        </tr>
+        
+    </table>
+    </div>
+
+    <div class="bottom">
+        <button id="submit" onclick="Process()">Click here to see the result</button>
+    </div>
+
+</div>
+    
+</body>
+</html>

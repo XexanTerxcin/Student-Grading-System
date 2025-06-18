@@ -1,0 +1,18 @@
+Table---->
+Name         Phy       Chem       Math       Eng        Total       Average      CGPA
+#prompt      #input    #input     #input     #input     #Output     #Output      #Output
+#prompt      #input    #input     #input     #input     #Output     #Output      #Output
+#prompt      #input    #input     #input     #input     #Output     #Output      #Output
+#prompt      #input    #input     #input     #input     #Output     #Output      #Output
+#prompt      #input    #input     #input     #input     #Output     #Output      #Output
+
+
+
+The prompt won't close nor move to the next prompt untill the user gives any input.
+The input value in Physics, Chemistry, Math and English cannot be greater than 100 an less than 0.
+Now the process function won't work if user clicks the button without giving any input to the input area.
+If any of the input value is more than 100 or less than 0 the Process() function won't work
+If the input value is more than 90 it's color will be #00ff00 after clicking the button. If the input value is lessthan 40 it's color will be red after clicking the button.
+In total section there will be "x[1,2,3,4,5]", where x= a[1,2,3,4,5]+b[1,2,3,4,5]+c[1,2,3,4,5]+d[1,2,3,4,5].
+And in average it will be "y[1,2,3,4,5]", where y=x[1,2,3,4,5]/4.
+CGPA column will show the Grade point following the Average Column according to Bangladesh University Grading System.
